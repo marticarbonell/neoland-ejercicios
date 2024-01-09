@@ -279,3 +279,45 @@ if (number2 / 2 == number1 || number1 / 5 == number3) {
     "number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3"
   );
 }
+
+//!------------------------------------------------------------------------------
+
+//**Iteración #6: Bucles**
+
+//!------------------------------------------------------------------------------
+
+//!------------------------------------------------------------------------------
+//1.1 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola.
+//!------------------------------------------------------------------------------
+
+for (let contador = 0; contador <= 9; contador++) {
+  console.log(contador);
+}
+
+//!------------------------------------------------------------------------------
+/*1.2 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola solo
+cuando el resto del numero dividido entre 2 sea 0.
+*/
+//!------------------------------------------------------------------------------
+
+for (let contador2 = 0; contador2 <= 9; contador2++) {
+  if (contador2 % 2 == 0) {
+    console.log(contador2);
+  }
+}
+
+//!------------------------------------------------------------------------------
+/*1.3 Crea un bucle para conseguir dormir contando ovejas.
+Este bucle tiene que dar 10 vueltas, es decir, 10 console.log.
+Muestra por consola un mensaje diciendo 'Intentando dormir 🐑' en cada vuelta del bucle
+y cambia el mensaje en la décima vuelta a 'Dormido!'.
+*/
+//!------------------------------------------------------------------------------
+
+for (let dormir = 0; dormir < 10; dormir++) {
+  if (dormir !== 9) {
+    console.log("Intentando dormir 🐑");
+  } else {
+    console.log("Dormido! zzzzZzZz");
+  }
+}
